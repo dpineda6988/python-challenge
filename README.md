@@ -10,11 +10,11 @@ While spreadsheet programs such as Excel are excellent tools for analyzing datas
 **PyBank**, is a Python script that analyzes a financial dataset in the form of a .csv file ('budget_data.csv') and outputs the following:
 * Total number of months in the dataset
 * Net total amount of 'Profit/Losses' over the entire period of the dataset
-* Average monnth-to-month in 'Profit/Losses' over the entire period of the dataset
+* Average month-to-month 'Profit/Losses' over the entire period of the dataset
 * The month with the greatest increase in profits and its amount
-* The month wit hthe greatest decrease in profits and its amount
+* The month with the greatest decrease in profits and its amount
 
-These metrics are printed to the terminal and also written into a .txt file ('analysis_results.txt).
+These metrics are printed to the terminal and also written into a .txt file ('analysis_results.txt) in a folder titled 'analysis'.
 
 **PyPoll** is a Python script that analyzes a dataset of poll data in a .csv file ('election_data.csv') and calculates the following:
 * Total number of votes cast
@@ -23,7 +23,7 @@ These metrics are printed to the terminal and also written into a .txt file ('an
 * Total number of votes each candidate won
 * Winner of the election based on the popular vote
 
-Similar to PyBank, these metrics are printed to the terminal and also written into a .txt file ('election_results.txt).
+Similar to PyBank, these metrics are printed to the terminal and also written into a .txt file ('election_results.txt) in a folder titled 'analysis'.
 
 ### Dependencies
 The latest version of Python must be installed in order to run both scripts.
@@ -44,8 +44,8 @@ PyBank and PyPoll were created as an assignment for the University of California
 The practical exercises and coding examples demonstrated through the bootcamp helped inform and inspire the code for this project.
 
 In addition, the following resources were used for further reference (sections of code within each file noted in parentheses):
-* [How to skip the headers when processing a csv file using Python? - Stack Overflow](https://stackoverflow.com/questions/14257373/how-to-skip-the-headers-when-processing-a-csv-file-using-python) - referenced for how to skip the header row within a read .csv file (pybank.py - line 29, pypoll.py - line 20)
-* [Precision Handling in Python - GeeksforGeeks](https://www.geeksforgeeks.org/precision-handling-python) - referenced for how to leverage the round() function (pybank.py - line 64, pypoll.py - line 36)
-* [How to write a text file with no any delimiter in python? - Stack Overflow](https://stackoverflow.com/questions/21173446/how-to-write-a-text-file-with-no-any-delimiter-in-python) - referenced for how to use the .write() function vs .writerow() function (pybank.py - lines 95-111, pypoll.py - lines 96-115)
-* [Python | Increment value in dictionary - GeeksforGeeks](https://www.geeksforgeeks.org/python-increment-value-in-dictionary) - referenced for how to incrementally increase a particular key's numeric value in a dictionary (pypoll.py - line 31)
-* [Python tips - How to easily convert a list to a string for display | Decalage](https://www.decalage.info/en/python/print_list) - referenced for how to use .join to display/add a list to a string (pypoll.py - line 85)
+* [How to skip the headers when processing a csv file using Python? - Stack Overflow](https://stackoverflow.com/questions/14257373/how-to-skip-the-headers-when-processing-a-csv-file-using-python) - referenced for how to skip the header row within a read .csv file (PyBank/main.py - line 29, PyPoll/main.py - line 20)
+* [Precision Handling in Python - GeeksforGeeks](https://www.geeksforgeeks.org/precision-handling-python) - referenced for how to leverage the round() function (PyBank/main.py - line 64, PyPoll/main.py - line 36)
+* [How to write a text file with no any delimiter in python? - Stack Overflow](https://stackoverflow.com/questions/21173446/how-to-write-a-text-file-with-no-any-delimiter-in-python) - referenced for how to use the .write() function vs .writerow() function (PyBank/main.py - lines 95-111, PyPoll/main.py - lines 96-115)
+* [Python | Increment value in dictionary - GeeksforGeeks](https://www.geeksforgeeks.org/python-increment-value-in-dictionary) - referenced for how to incrementally increase a particular key's numeric value in a dictionary (PyPoll/main.py - line 31)
+* [Python tips - How to easily convert a list to a string for display | Decalage](https://www.decalage.info/en/python/print_list) - referenced for how to use .join to display/add a list to a string (PyPoll/main.py - line 85)
