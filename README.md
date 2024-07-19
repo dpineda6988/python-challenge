@@ -1,4 +1,5 @@
 # python-challenge
+# Pybank & PyPoll
 
 Two different scripts written in Python that are designed to read a csv file, use its contents to conduct some calcualtions and analysis, and then output those results to the terminal as well as write them to a text file.
 
@@ -6,7 +7,7 @@ Two different scripts written in Python that are designed to read a csv file, us
 
 While spreadsheet programs such as Excel are excellent tools for analyzing datasets, there are cases where the data files are far too large for these programs to effectively handle and use for analysis.  It is these instances that programming languages such as Python can be a powerful option for handling large data files.  This repository contains two Python scripts, PybBnk and PyPoll, that demonstrate how Python can be used to handle big data, conduct calculations, and reveal potential insights.
 
-PyBank, is a Python script that analyzes a financial dataset in the form of a .csv file ('budget_data.csv') and outputs the following:
+**PyBank**, is a Python script that analyzes a financial dataset in the form of a .csv file ('budget_data.csv') and outputs the following:
 * Total number of months in the dataset
 * Net total amount of 'Profit/Losses' over the entire period of the dataset
 * Average monnth-to-month in 'Profit/Losses' over the entire period of the dataset
@@ -15,7 +16,7 @@ PyBank, is a Python script that analyzes a financial dataset in the form of a .c
 
 These metrics are printed to the terminal and also written into a .txt file ('analysis_results.txt).
 
-PyPoll is a Python script that analyzes a dataset of poll data in a .csv file ('election_data.csv') and calculates the following:
+**PyPoll** is a Python script that analyzes a dataset of poll data in a .csv file ('election_data.csv') and calculates the following:
 * Total number of votes cast
 * A list of candidates who received votes
 * The percentage of votes each candidate won
