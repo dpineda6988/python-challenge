@@ -1,11 +1,11 @@
 # python-challenge
 # Pybank & PyPoll
 
-Two different scripts written in Python that are designed to read a csv file, use its contents to conduct some calcualtions and analysis, and then output those results to the terminal as well as write them to a text file.
+Two different scripts written in Python that are designed to read a .csv file, use its contents to conduct some calcualtions and analysis, and then output those results to the terminal as well as write them to a text file.
 
 ## Description
 
-While spreadsheet programs such as Excel are excellent tools for analyzing datasets, there are cases where the data files are far too large for these programs to effectively handle and use for analysis.  It is these instances that programming languages such as Python can be a powerful option for handling large data files.  This repository contains two Python scripts, PybBnk and PyPoll, that demonstrate how Python can be used to handle big data, conduct calculations, and reveal potential insights.
+While spreadsheet programs such as Excel are excellent tools for analyzing datasets, there are cases where the data files are far too large for these programs to effectively handle and use for analysis.  It is in these instances that programming languages such as Python can be a powerful option for handling large data files for data analysis.  This repository contains two Python scripts, PyBank and PyPoll, that demonstrate how Python can be used to handle big data, conduct calculations, and draw potential insights or conclusions.
 
 **PyBank**, is a Python script that analyzes a financial dataset in the form of a .csv file ('budget_data.csv') and outputs the following:
 * Total number of months in the dataset
@@ -32,7 +32,7 @@ PyBank assumes the .csv file it is assigned to read is organized and formatted a
 * Data occupies columns with the headings 'Date', 'Profit/Losses'
 
 PyPoll assumes the .csv file it is assigned to read is organized and formatted as follows 
-* Data occupies columns with the headings 'Voted ID', 'County', and 'Candidate'
+* Data occupies columns with the headings 'Voter ID', 'County', and 'Candidate'
 
 
 ## Authors
@@ -47,5 +47,5 @@ In addition, the following resources were used for further reference (sections o
 * [How to skip the headers when processing a csv file using Python? - Stack Overflow](https://stackoverflow.com/questions/14257373/how-to-skip-the-headers-when-processing-a-csv-file-using-python) - referenced for how to skip the header row within a read .csv file (pybank.py - line 29, pypoll.py - line 20)
 * [Precision Handling in Python - GeeksforGeeks](https://www.geeksforgeeks.org/precision-handling-python) - referenced for how to leverage the round() function (pybank.py - line 64, pypoll.py - line 36)
 * [How to write a text file with no any delimiter in python? - Stack Overflow](https://stackoverflow.com/questions/21173446/how-to-write-a-text-file-with-no-any-delimiter-in-python) - referenced for how to use the .write() function vs .writerow() function (pybank.py - lines 95-111, pypoll.py - lines 96-115)
-* [Python | Increment value in dictionary](https://www.geeksforgeeks.org/python-increment-value-in-dictionary) - referenced for how to incrementally increase a particular key's numeric value in a dictionary (pypoll.py - line 31)
+* [Python | Increment value in dictionary - GeeksforGeeks](https://www.geeksforgeeks.org/python-increment-value-in-dictionary) - referenced for how to incrementally increase a particular key's numeric value in a dictionary (pypoll.py - line 31)
 * [Python tips - How to easily convert a list to a string for display | Decalage](https://www.decalage.info/en/python/print_list) - referenced for how to use .join to display/add a list to a string (pypoll.py - line 85)
